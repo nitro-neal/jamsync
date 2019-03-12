@@ -1,0 +1,622 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family:Arial, Helvetica, sans-serif;
+	box-sizing:border-box;
+	color:#FFF;
+}
+
+body{
+	margin:0;
+	height:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:50px;
+}
+
+.wrap{
+	margin-top:10%;
+	max-width:1280px;
+	margin:0 auto;
+	padding:30px 30px;
+	width:95%;
+}
+
+header{
+	display:block;
+}
+
+.header-main{
+	position:absolute;
+	z-index:10;
+	top:0;
+	left:0;
+	right:0;
+	height:100px;
+	backface-visibility: hidden;
+	transform:translateZ(0);
+}
+
+a{
+	text-decoration:none;
+}
+
+p{
+	display:block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+element.style{
+	transform:translateY(0%);
+}
+
+.page.dark{
+	background-color:#002739;
+	color:white;
+	padding-bottom:100px;
+	text-align:center;
+}
+
+.page.light{
+	background-color:white;
+	color:#002739;
+	padding-bottom:100px;
+	padding-top:50px;
+	text-align:center;
+}
+
+.page.light h1{
+	color:#37A781;
+}
+
+.light li{
+	color:#002739;
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 0 60px;
+	text-align:center;
+}
+
+.light-paragraph p{
+	text-align:center;
+	color:#002739;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:100;
+}
+
+.medium-paragraph p{
+	text-align:center;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:100;
+}
+
+.page.medium{
+	color:white;
+	background-color:#37A781;
+	padding-top:50px;
+	text-align:center;
+}
+
+.page.dark{
+	color:white;
+	background-color:#002739;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	padding-bottom:100px;
+}
+
+.theme{
+	overflow-x:hidden;
+	overflow-y:hidden;
+	text-align:center;
+	position:relative;
+	top:0;
+	bottom:0;
+	margin:0;
+}
+
+.theme.theme-bg{
+	position:relative;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin:0;
+}
+
+img{
+	vertical-align:middle;
+}
+
+.google-play{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.social-list{
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.social-list img{
+	margin-bottom:20px;
+}
+
+
+
+@media (min-width: 1200px) {
+	
+	.google-play img{
+		margin-top:-200px;
+		width:250px;
+		margin-bottom:80px;
+	}
+	
+	.header-main{
+		height:100px;
+	}
+	
+	h1,
+	.h1,
+	h2,
+	.h2,
+	h3,
+	.h3 {
+	  margin-top: 60px;
+	  margin-bottom: 20px;
+	}
+	
+	h1{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:36px;
+	}	
+
+
+	.light-paragraph p{
+		width:40%;
+		margin-bottom:150px;
+	}
+	
+	.medium-paragraph p{
+		width:40%;
+		margin-bottom:150px;
+	}
+
+	#background{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		height:80%;
+	}
+	
+	.jamsync{
+		position:absolute;
+		top:34%;
+		left:0;
+		right:0;
+	}
+	
+	.jamsync #tag{
+		width:600px;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+	}
+	
+	.how-to{
+		width:85%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.how-to img{
+		margin-bottom:20px;
+	}
+	
+	.light li{
+		width:20%;
+		padding: 0 0 60px;
+		font-size:24px;
+	}
+	
+	.social-list li{
+		padding: 40px 0 40px;
+		width:20%;
+		font-size:24px;
+		color:#002739;
+		list-style:none;
+		display:inline-block;
+		vertical-align:top;
+		margin:0 0 60px;
+		text-align:center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	.google-play img{
+		margin-top:-200px;
+		width:250px;
+		margin-bottom:80px;
+	}	
+	
+	h1{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:36px;
+	}	
+	
+	h1,
+	.h1,
+	h2,
+	.h2,
+	h3,
+	.h3 {
+	  margin-top: 60px;
+	  margin-bottom: 20px;
+	}	
+	
+	.light-paragraph p{
+		width:65%;
+		margin-bottom:130px;
+	}	
+	
+	.medium-paragraph p{
+		width:65%;
+		margin-bottom:130px;
+	}	
+	
+	#background{
+		width:1900px;;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		height:80%;
+	}
+	
+	.jamsync{
+		position:absolute;
+		top:35%;
+		left:0;
+		right:0;
+	}
+	
+	.jamsync #tag{
+		width:600px;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+	}
+	
+		
+	.how-to{
+		width:85%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.how-to img{
+		margin-bottom:20px;
+	}
+	
+	.light li{
+		width:40%;
+		padding: 0 0 30px;
+		font-size:24px;
+	}
+	
+.social-list li{
+	padding: 40px 0 40px;
+	width:20%;
+	font-size:24px;
+	color:#002739;
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 0 60px;
+	text-align:center;
+}
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+	.google-play img{
+		margin-top:-140px;
+		width:200px;
+		margin-bottom:30px;
+	}	
+	
+	h1{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:22px;
+	}
+	
+	h1,
+	.h1,
+	h2,
+	.h2,
+	h3,
+	.h3 {
+	  margin-top: 40px;
+	  margin-bottom: 20px;
+	}			
+	
+	.light-paragraph p{
+		width:70%;
+		margin-bottom:90px;
+	}		
+	
+	.medium-paragraph p{
+		width:70%;
+		margin-bottom:90px;
+	}			
+	
+	#background{
+		width:1100px;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		height:50%;
+	}
+	
+	.jamsync{
+		position:absolute;
+		top:180px;
+		left:0;
+		right:0;
+	}
+	
+	.jamsync #tag{
+		width:420px;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+	}
+	
+	/*.navbar-brand img{
+		display:block;
+		height:100px;
+	}*/
+	
+	.navbar-right a{
+		background-color:#002739;
+		text-align:center;
+	}
+
+	.navbar-right li{
+		padding-top:30px;
+		padding-bottom:30px;
+		background-color:#002739;
+		text-align:center;
+		color:#18bc9c;
+	}
+	
+	.how-to{
+		width:85%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.how-to img{
+		max-width:90%;
+		display:block;
+	}
+	
+	.light li{
+		width:40%;
+		padding: 0 0 50px;
+		font-size:16px;
+	}
+	
+.social-list li{
+	padding: 0 0 40px;
+	width:80%;
+	font-size:24px;
+	color:#002739;
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+}	
+
+}
+
+/*@media (min-width: 350px) and (max-width: 450px) {
+	.google-play img{
+		margin-top:-100px;
+		width:130px;
+	}	
+	
+	#background{
+		width:900px;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		height:40%;
+	}
+	
+	h1{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:24px;
+	}		
+	
+	h1,
+	.h1,
+	h2,
+	.h2,
+	h3,
+	.h3 {
+	  margin-top: 60px;
+	  margin-bottom: 20px;
+	}			
+	
+	.light-paragraph p{
+		width:70%;
+		margin-bottom:90px;
+	}		
+	
+	.medium-paragraph p{
+		width:70%;
+		margin-bottom:90px;
+	}			
+	
+	.jamsync{
+		position:absolute;
+		top:90px;
+		left:0;
+		right:0;
+	}
+	
+	.jamsync #tag{
+		width:200px;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+	}
+	
+	.navbar-right a{
+		background-color:#002739;
+		text-align:center;
+	}	
+	
+	.navbar-right li{
+		padding-top:30px;
+		padding-bottom:30px;
+		background-color:#002739;
+		text-align:center;
+		color:#18bc9c;
+	}		
+	
+	.how-to{
+		width:85%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.how-to img{
+		max-width:90%;
+		display:block;
+	}
+	
+	.light li{
+		width:60%;
+		padding: 0 0 10px;
+		font-size:16px;
+	}	
+	.social-list li{
+	padding: 0 0 40px;
+	width:80%;
+	font-size:24px;
+	color:#002739;
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+}	
+}*/
+
+@media  all and (max-width:360px),
+	screen and (-webkit-min-device-pixel-ratio: 3.0) and (max-width: 1080px),
+	screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 720px) {
+	.google-play img{
+		margin-top:-140px;
+		width:170px;
+	}	
+	
+	#background{
+		width:700px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	h1{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:24px;
+	}		
+	
+	h1,
+	.h1,
+	h2,
+	.h2,
+	h3,
+	.h3 {
+	  margin-bottom: 20px;
+	}			
+	
+	.light-paragraph p{
+		width:70%;
+		margin-bottom:90px;
+	}		
+	
+	.medium-paragraph p{
+		width:70%;
+		margin-bottom:90px;
+	}			
+	
+	.jamsync{
+		position:absolute;
+		top:110px;
+		left:0;
+		right:0;
+	}
+	
+	.jamsync #tag{
+		width:240px;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+	}
+	
+	/*.navbar-brand img{
+		display:block;
+		height:90px;
+	}*/
+	
+	.navbar-right a{
+		background-color:#002739;
+		text-align:center;
+	}	
+	
+	.navbar-right li{
+		padding-top:30px;
+		padding-bottom:30px;
+		background-color:#002739;
+		text-align:center;
+		color:#18bc9c;
+	}		
+	
+	.how-to{
+		width:85%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.how-to img{
+		max-width:90%;
+		display:block;
+	}
+	
+	.light li{
+		width:60%;
+		padding: 0 0 10px;
+		font-size:16px;
+	}	
+	.social-list li{
+	padding: 0 0 40px;
+	width:80%;
+	font-size:24px;
+	color:#002739;
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+} 
